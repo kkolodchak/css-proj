@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url(./fonts/ChronicaPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bahij-sultannahia";
+  src: url(./fonts/bahij-sultannahia.ttf);
+}
+
+body {
+  background-color: #f9fbfa;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  margin: 18px 0px;
+}
+
+.title-main {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.team {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title-main a:hover {
+  color: #5b89f2;
+}
+
+.team a:hover {
+  color: #5b89f2;
+}
+
+.lessons a:hover {
+  color: #5b89f2;
+}
+
+.main_border {
+  margin: 0 auto;
+  padding: 110px 0 0;
+  width: 1128px;
+  height: 410px;
+  background-color: #eaeaeb;
+  border: 0px solid #eaeaeb;
+  border-radius: 20px;
+}
+
+.big-container {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  height: 290px;
+  width: 65px;
+  border: 0px solid #f9fbfa;
+  background-color: #f9fbfa;
+  border-radius: 13px;
+  margin-left: 18px;
+  margin-top: -37px;
+  margin-right: 70px;
+}
+
+.uil {
+  margin: -1.95px;
+}
+
+.little-border {
+  border: 1px solid transparent;
+  margin: 0px 0px 1px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+}
+
+.icon {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 1px 4px 1px 4px;
+  margin: 9px 68px 14px 68px;
+}
+
+.icon1 {
+  margin: 23px 68px 14px 68px;
+  padding: 1px 4px 1px 4px;
+  border: 1px solid #4d86ed;
+  background-color: #4d86ed;
+  border-radius: 4px;
+  color: white;
+}
+
+.icon:hover {
+  /* margin: 14px 2px 14px 2px; */
+  padding: 1px 4px 1px 4px;
+  border: 1px solid #4d86ed;
+  background-color: #4d86ed;
+  border-radius: 4px;
+  color: white;
+  margin-left: 68px;
+}
+
+.label:hover {
+  position: relative;
+  display: inline-block;
+}
+
+.label1:hover::after {
+  position: absolute;
+  content: "Project";
+  display: flex;
+  color: white;
+  font-size: 15px;
+  top: -1px;
+  bottom: -1px;
+  left: 34px;
+  border: 1px solid #4d86ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4d86ed;
+  border-right-width: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.label2:hover::after {
+  position: absolute;
+  content: "Account";
+  display: flex;
+  color: white;
+  font-size: 15px;
+  top: -1px;
+  bottom: -1px;
+  left: 34px;
+  border: 1px solid #4d86ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4d86ed;
+  border-right-width: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.label3:hover::after {
+  position: absolute;
+  content: "Groups";
+  display: flex;
+  color: white;
+  font-size: 15px;
+  top: -1px;
+  bottom: -1px;
+  left: 34px;
+  border: 1px solid #4d86ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4d86ed;
+  border-right-width: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.label4:hover::after {
+  position: absolute;
+  content: "Cloud";
+  display: flex;
+  color: white;
+  font-size: 15px;
+  top: -1px;
+  bottom: -1px;
+  left: 34px;
+  border: 1px solid #4d86ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4d86ed;
+  border-right-width: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.label5:hover::after {
+  position: absolute;
+  content: "Setting";
+  display: flex;
+  color: white;
+  font-size: 15px;
+  top: -1px;
+  bottom: -1px;
+  left: 34px;
+  border: 1px solid #4d86ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4d86ed;
+  border-right-width: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+/* .one {
+    border: 1px solid #4d86ed;
+    background-color: #4d86ed;
+    border-radius: 4px;
+    padding: 3px 7px;
+} */
+
+.row1 {
+  display: flex;
+  margin: 0px 0px 0px 80px;
+}
+
+.project {
+  display: flex;
+  width: 520px;
+  height: 100px;
+  border: 0px solid #f9fbfa;
+  background-color: #f9fbfa;
+  border-radius: 13px;
+  margin: -77px 27px 20px 33px;
+}
+
+.company {
+  display: flex;
+  width: 520px;
+  height: 100px;
+  border: 0px solid #f9fbfa;
+  background-color: #f9fbfa;
+  border-radius: 13px;
+  margin: -77px 15px 20px 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.small-text {
+  font-family: "ChronicaPro-Regular";
+  font-size: 12px;
+  color: #b6b8bf;
+  padding-left: 5px;
+}
+
+.small-header {
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 21px;
+  margin-left: 6px;
+}
+
+.container {
+  display: flex;
+  margin: 1px 0px 0px 0px;
+}
+
+.row2-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px -37px;
+}
+
+.description {
+  height: 150px;
+  width: 670px;
+  border: 0px solid #f9fbfa;
+  background-color: #fdfffe;
+  border-radius: 13px;
+  margin: 0px 0px 0px 0px;
+}
+
+.team1 {
+  display: flex;
+  height: 150px;
+  width: 670px;
+  border: 0px solid #f9fbfa;
+  background-color: #fdfffe;
+  border-radius: 13px;
+  margin: 20px 0px 0px 0px;
+}
+
+.separate-box {
+  height: 321px;
+  width: 306px;
+  border: 0px solid #f9fbfa;
+  background-color: #fdfffe;
+  border-radius: 13px;
+  margin: 0px 15px 0px 21px;
+}
+
+.big-header {
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 27px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 46px 20px;
+}
+
+.img-team {
+  width: 100px;
+  height: 100px;
+  margin: 19px;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  margin: 45px -8px;
+}
+
+.img-data {
+  width: 90px;
+  height: 83px;
+  margin: 16px;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: column;
+  margin: -3px 27px 0px 23px;
+  line-height: 21px;
+}
+
+.small1-text {
+  font-family: "ChronicaPro-Regular";
+  font-size: 12px;
+  color: #b6b8bf;
+  margin-top: 3px;
+}

@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url(./fonts/ChronicaPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bahij-sultannahia";
+  src: url(./fonts/bahij-sultannahia.ttf);
+}
+
+@media (min-width: 1048px) {
+  .main_border {
+    width: 1015px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .main_border {
+    width: 1047px;
+  }
+}
+
+body {
+  background-color: #f9fbfa;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  margin: 18px 0px;
+}
+
+.title-main {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.team {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title-main a:hover {
+  color: #5b89f2;
+}
+
+.team a:hover {
+  color: #5b89f2;
+}
+
+.lessons a:hover {
+  color: #5b89f2;
+}
+
+.main_border {
+  margin: 0 auto;
+  padding: 30px 0 0;
+  width: 1047px;
+  height: 500px;
+  background-color: #eaeaeb;
+  border: 0px solid #eaeaeb;
+  border-radius: 20px;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  margin-top: 73px;
+}
+
+.border1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 36px 63px 0px;
+  padding: 11px 0px 6px 27px;
+}
+
+.border2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 0px 63px 0px;
+  padding: 11px 0px 6px 27px;
+}
+
+.number {
+  padding: 0px 0px 0px 75px;
+  margin-right: -73px;
+}
+
+.topic {
+  margin-left: 84px;
+}
+
+.date {
+  padding: 0px 0px 0px 5px;
+  margin-left: -41px;
+}
+
+.img {
+  margin-right: 20px;
+  border: 1px solid silver;
+  border-radius: 9px;
+  padding: 4px 0px 0px;
+  font-size: 23px;
+  margin-top: -7px;
+}
+
+/* .uil-download-alt:before {
+    content: "\e99a";
+    font-size: 22px;
+    margin-top: -9px;
+    border: 1px solid silver;
+    border-radius: 9px;
+    padding: 4px;
+} */
+
+.border1:hover {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.border2:hover {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.img:hover {
+  margin-right: 20px;
+  border: 1px solid transparent;
+  background-color: #4d86ed;
+  border-radius: 9px;
+  padding: 4px 0px 0px;
+  font-size: 23px;
+  margin-top: -7px;
+  color: white;
+}
+
+input[type="checkbox"] {
+}
+
+#checkbox {
+  transform: scale(1.7);
+  opacity:0.9;
+}

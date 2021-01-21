@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url(./fonts/ChronicaPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bahij-sultannahia";
+  src: url(./fonts/bahij-sultannahia.ttf);
+}
+
+@media (min-width: 1048px) {
+  .main_border {
+    width: 1015px;
+  }
+}
+
+/* :root {
+    --for-text: #b6b8bf;
+  } */
+
+@media (max-width: 1075px) {
+  .main_border {
+    width: 1047px;
+  }
+}
+
+body {
+  background-color: #f9fbfa;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+  margin: 18px 0px;
+}
+
+.title-main {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.team {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title-main a:hover {
+  color: #5b89f2;
+}
+
+.team a:hover {
+  color: #5b89f2;
+}
+
+.lessons a:hover {
+  color: #5b89f2;
+}
+
+.main_border {
+  margin: 0 auto;
+  padding: 30px 0 0;
+  width: 1047px;
+  height: 483px;
+  background-color: #eaeaeb;
+  border: 0px solid #eaeaeb;
+  border-radius: 20px;
+}
+
+.two-rows {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 18px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  height: 193px;
+  width: 207px;
+  border: 0px solid #f9fbfa;
+  background-color: #f9fbfa;
+  border-radius: 13px;
+}
+
+.user1 {
+  display: flex;
+  margin: -4px 30px 40px 65px;
+}
+
+.foto {
+  margin: 16px 69px 20px;
+  width: 70px;
+  height: 70px;
+  border: 0px solid transparent;
+  -webkit-border-radius: 160px 160px 160px 160px;
+}
+
+.job {
+  margin: 0px 31px 15px 55px;
+  font-family: "ChronicaPro-Regular";
+  font-size: 12px;
+  color: silver;
+}
+
+.date {
+  margin: 0px 31px 15px 65px;
+  font-family: "ChronicaPro-Regular";
+  font-size: 10px;
+  color: lightgray;
+}
+
+.second-name {
+  margin: -4px 2px 2px 70px;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+}
+
+.second-name1 {
+  margin: -4px 2px 2px 49px;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+}
+
+.second-name2 {
+  margin: -4px 2px 2px 62px;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+}
+
+.second-name3 {
+  margin: -4px 2px 2px 58px;
+  font-family: "bahij-sultannahia", sans-serif;
+  font-size: 20px;
+}
+
+.user2 {
+  margin: -3px 30px 40px 0px;
+}
+
+.user3 {
+  margin: -3px 30px 40px 0px;
+}
+
+.user4 {
+  margin: -3px 30px 40px 0px;
+}
+
+.user5 {
+  margin: -4px 30px 40px 65px;
+}
+
+.user:hover {
+  flex-direction: column;
+  height: 193px;
+  width: 207px;
+  border: 0px solid #4d86ed;
+  border-radius: 13px;
+  background-color: #4d86ed;
+  color: white;
+}
+
+.some {
+  position: relative;
+  display: inline-block;
+}
+
+.user1:hover::after {
+  position: absolute;
+  content: "";
+  background-image: url(./trash.png);
+  background-size: 40px;
+  width: 40px;
+  border: 6px solid white;
+  border-radius: 15px;
+  height: 41px;
+  margin: 0px;
+  top: -31px;
+  left: 243px;
+  background-repeat: no-repeat;
+}
+
+.user2:hover::after {
+  position: absolute;
+  content: "";
+  background-image: url(./trash.png);
+  background-size: 40px;
+  width: 40px;
+  border: 6px solid white;
+  border-radius: 15px;
+  height: 41px;
+  margin: 0px;
+  top: -31px;
+  left: 179px;
+  background-repeat: no-repeat;
+}
+
+.user3:hover::after {
+  position: absolute;
+  content: "";
+  background-image: url(./trash.png);
+  background-size: 40px;
+  width: 40px;
+  border: 6px solid white;
+  border-radius: 15px;
+  height: 41px;
+  margin: 0px;
+  top: -31px;
+  left: 179px;
+  background-repeat: no-repeat;
+}
+
+.user4:hover::after {
+  position: absolute;
+  content: "";
+  background-image: url(./trash.png);
+  background-size: 40px;
+  width: 40px;
+  border: 6px solid white;
+  border-radius: 15px;
+  height: 41px;
+  margin: 0px;
+  top: -31px;
+  left: 179px;
+  background-repeat: no-repeat;
+}
+
+.user5:hover::after {
+  position: absolute;
+  content: "";
+  background-image: url(./trash.png);
+  background-size: 40px;
+  width: 40px;
+  border: 6px solid white;
+  border-radius: 15px;
+  height: 41px;
+  margin: 0px;
+  top: -31px;
+  left: 243px;
+  background-repeat: no-repeat;
+}
